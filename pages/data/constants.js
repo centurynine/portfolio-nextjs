@@ -47,12 +47,12 @@ export const MyBio = {
         {
           name: "CSS",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+            "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
         },
         {
           name: "Tailwind CSS",
           image:
-            "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png",
+            "https://shadowblood.gallerycdn.vsassets.io/extensions/shadowblood/tailwind-moon/3.0.2/1673948732518/Microsoft.VisualStudio.Services.Icons.Default",
         },
         {
           name: "JavaScript",
@@ -64,6 +64,11 @@ export const MyBio = {
           image:
             "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
         },
+        {
+          name: "Next JS",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+        },
       ],
     },
     {
@@ -71,7 +76,7 @@ export const MyBio = {
       skills: [
         {
           name: "NodeJs",
-          image: "https://nodejs.org/static/images/logo.svg",
+          image: "https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png",
         },
         {
           name: "ExpressJs",
@@ -81,7 +86,7 @@ export const MyBio = {
         {
           name: "PHP",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png",
+            "https://cdn-icons-png.flaticon.com/512/919/919830.png",
         },
       ],
     },
@@ -145,7 +150,7 @@ export const MyBio = {
         {
           name: "Arduino",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/1200px-Arduino_Logo.svg.png",
+            "https://cdn.icon-icons.com/icons2/2699/PNG/512/arduino_logo_icon_170518.png",
         },
       ],
     },
