@@ -4,6 +4,7 @@ import { MyBio } from "../data/constants";
 import TypewriterComponent from "typewriter-effect";
 import MyImage from "../assets/images/picture.jpg";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import { FaFacebook, FaGithub } from "react-icons/fa";
 import Image from "next/image";
 import BioBgAnimation from './BioAnimation';
 
@@ -31,7 +32,11 @@ function Bio({ darkMode }) {
           development. This journey will shape me into a proficient FullStack
           Developer, poised to excel in all aspects of app development.
         </p>
-        {/* <AiFillTwitterCircle /> */}
+        <div className="mt-5 flex flex-row text-4xl gap-4 text-slate-800">
+          <a href={MyBio.twitter} target="_blank"><AiFillTwitterCircle /></a>
+          <a href={MyBio.facebook} target="_blank"><FaFacebook/></a>
+          <a href={MyBio.github} target="_blank"><FaGithub/></a>
+        </div>
       </div>
       <div className="xl:mr-56 relative">
         <div className="w-56 absolute inset-0 ml-8 mt-20 ">

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useState } from 'react'
 import Bio from './components/Bio'
+import Educations from './components/Educations'
 import Nav from './components/Nav'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
@@ -20,6 +21,7 @@ export default function Home() {
       <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
       <Bio darkMode={darkMode} />
       <Skills darkMode={darkMode} />
+      <Educations darkMode={darkMode} />
       <Projects darkMode={darkMode} />
      </section> 
     </main>

@@ -148,7 +148,7 @@ export const MyBio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png",
         },
         {
-          name: "Arduino",
+          name: "Arduino", 
           image:
             "https://cdn.icon-icons.com/icons2/2699/PNG/512/arduino_logo_icon_170518.png",
         },
