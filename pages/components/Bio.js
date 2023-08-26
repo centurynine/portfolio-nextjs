@@ -10,12 +10,12 @@ import BioBgAnimation from './BioAnimation';
 function Bio({ darkMode }) {
   return (
     <div id="about" className="flex flex-col xl:flex-row items-center justify-center mt-40">
-      <div className="mx-24 md:mx-0 mb-20 md:mb-10 md:ml-56 md:mr-40 flex flex-col items-center justify-center">
-        <div className=" flex flex-row gap-2 justify-center text-6xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
+      <div className="mx-10 md:mx-0 mb-20 md:mb-10 md:ml-56 md:mr-40 flex flex-col items-center justify-center">
+        <div className=" flex flex-row gap-2 justify-center text-3xl md:text-6xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
           <h2 className="">Hello, I am </h2>
           <h2 className="">{MyBio.name}</h2>
         </div>
-        <span className="my-2 justify-center text-4xl text-cyan-500 flex flex-row gap-2 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
+        <span className="my-2 justify-center text-2xl md:text-4xl text-cyan-500 flex flex-row gap-2 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
           I am a
           <TypewriterComponent 
             options={{
@@ -25,7 +25,7 @@ function Bio({ darkMode }) {
             }}
           /> 
         </span>
-        <p className={`${darkMode ? 'text-white' : 'text-slate-700'} text-2xl mr-5 text-center `}>
+        <p className={`${darkMode ? 'text-white' : 'text-slate-700'} text-1xl md:text-2xl mr-5 text-center `}>
           I'm interested in Node.js for creating diverse and user-friendly web
           applications, and I aim to excel in both frontend and backend
           development. This journey will shape me into a proficient FullStack
