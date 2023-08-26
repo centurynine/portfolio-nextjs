@@ -26,7 +26,7 @@ function Educations() {
                   className="w-16 h-16 object-cover rounded-full"
                 />
                 <div>
-                  <span className="block text-md text-gray-700">
+                  <span className="block text-md text-xl text-gray-700">
                     {edu.school}
                   </span>
                   <span className="block text-md text-gray-700">{edu.date}</span>
