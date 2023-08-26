@@ -41,3 +41,7 @@ body {
 .color-black {
   background-color: rgb(29, 28, 26);
 }
+
+.Typewriter__cursor {
+  color: #89B3F5;
+}
