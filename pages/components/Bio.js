@@ -9,7 +9,7 @@ import BioBgAnimation from './BioAnimation';
 
 function Bio({ darkMode }) {
   return (
-    <div id="about" className="flex flex-col xl:flex-row items-center justify-center">
+    <div id="about" className="flex flex-col xl:flex-row items-center justify-center mt-40">
       <div className="md:ml-56 md:mr-40 flex flex-col items-center justify-center">
         <div className=" flex flex-row gap-2 justify-center text-6xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
           <h2 className="">Hello, I am </h2>
