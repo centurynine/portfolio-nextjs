@@ -41,7 +41,7 @@ function Bio({ darkMode }) {
           src={MyImage}
           alt="profile"
           width={'100%'}
-          className="rounded-full object-center mx-auto w-2/3 xl:w-full  "
+          className="rounded-full object-center mx-auto w-2/3 xl:w-full hover:scale-110 transition"
         />
       </div>
     </div>
