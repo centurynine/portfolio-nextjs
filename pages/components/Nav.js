@@ -10,10 +10,12 @@ function Nav({ darkMode, setDarkMode }) {
           <li className={`${darkMode ? 'text-white' : 'text-black'} cursor-pointer mt-1 `}>
             <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />
           </li>
-          <li><a href='#home' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Home</a></li>
-          <li><a href='#about' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>About</a></li>
-          <li><a href='#skill' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Skills</a></li>
-          <li><a href='#project' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Projects</a></li>
+          <div className='flex-row gap-4 hidden sm:hidden md:flex md:gap-4'> 
+            <li><a href='#home' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Home</a></li>
+            <li><a href='#about' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>About</a></li>
+            <li><a href='#skill' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Skills</a></li>
+            <li><a href='#project' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Projects</a></li>
+            </div>
           <li><a className={`bg-gradient-to-r from-cyan-500 to-blue-400 
                  text-white px-4 py-2 border-none rounded-2xl ml-4 hover:opacity-80 transition`} href='https://drive.google.com/file/d/119bFl8jNC__BTKHBqY5OnyYl9pfsIRY2/view' target='_blank' rel="noopener noreferrer">Resume</a></li>
         </div>
