@@ -33,7 +33,7 @@ function Bio({ darkMode }) {
         </p>
         {/* <AiFillTwitterCircle /> */}
       </div>
-      <div className="md:mr-56 relative">
+      <div className="xl:mr-56 relative">
         <div className="w-56 absolute inset-0 ml-8 mt-20 ">
           <BioBgAnimation />
         </div>
