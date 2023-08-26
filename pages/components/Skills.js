@@ -2,7 +2,6 @@ import React from "react";
 import { skills } from "../data/constants";
 
 function Skills({darkMode}) {
-  console.log(darkMode);
   return (
     <div id="skill" className="mt-40 flex flex-col mx-auto px-10 py-16">
       <div className="bg-gray-100 mx-auto p-4 rounded-3xl mb-16 hover:bg-slate-300 transition">

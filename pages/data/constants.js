@@ -1,3 +1,13 @@
+import React from 'react'
+
+function constants() {
+  return (
+    <div></div>
+  )
+}
+
+export default constants
+
 export const MyBio = {
     name: "Saran",
     roles: [
