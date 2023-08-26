@@ -34,13 +34,13 @@ function Bio({ darkMode }) {
         {/* <AiFillTwitterCircle /> */}
       </div>
       <div className="md:mr-56 relative">
-        <div className="absolute inset-0 ml-8 mt-20 ">
+        <div className="w-56 absolute inset-0 ml-8 mt-20 ">
           <BioBgAnimation />
         </div>
         <Image
           src={MyImage}
           alt="profile"
-          width={1200}
+          width={'100%'}
           className="rounded-full object-center mx-auto w-2/3 xl:w-full  "
         />
       </div>
