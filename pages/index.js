@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <main>
-     <section className={`${darkMode ? 'color-black' : 'bg-white'} min-h-screen`}>
+     <section className={`${darkMode ? 'color-black' : 'bg-white'} min-h-screen`} >
       <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
       <Bio darkMode={darkMode} />
       <Skills darkMode={darkMode} />

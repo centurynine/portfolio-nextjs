@@ -14,6 +14,7 @@ function Nav({ darkMode, setDarkMode }) {
             <li><a href='#home' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Home</a></li>
             <li><a href='#about' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>About</a></li>
             <li><a href='#skill' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Skills</a></li>
+            <li><a href='#education' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Education</a></li>
             <li><a href='#project' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Projects</a></li>
             </div>
           <li><a className={`bg-gradient-to-r from-cyan-500 to-blue-400 

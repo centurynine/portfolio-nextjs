@@ -192,7 +192,7 @@ export const MyBio = {
     },
     {
       id: 1,
-      img: "https://scontent.fbkk29-5.fna.fbcdn.net/v/t39.30808-6/308736559_386803356997498_7708050881291334786_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGTmHtNRWZU2FUlwhwPND-pC5JE30NqMPcLkkTfQ2ow9x6xuNF4S4AGK1WOpubB7i2Q1GSJpRvvupmtgmSaSVyZ&_nc_ohc=0WGGyb-X9RkAX9CgCgp&_nc_pt=1&_nc_ht=scontent.fbkk29-5.fna&oh=00_AfCF1yD5e4bvYS7AoZNz2VNPghfvfirpl0FnLMRmD5JZlA&oe=64ED65B4",
+      img: "https://i.ibb.co/7ySLXSS/308736559-386803356997498-7708050881291334786-n.jpg",
       school: "Mathayomwatmaikrongtong Schol",
       date: "2014 - 2020",
     },

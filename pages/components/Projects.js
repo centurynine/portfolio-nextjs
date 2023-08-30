@@ -3,7 +3,7 @@ import { projects } from "../data/constants";
 
 function Projects() {
   return (
-    <div id="project" className="flex flex-col items-center justify-center mt-10 mx-8 md:mx-16 lg:mx-24 px-4 md:px-8 xl:mx-96 py-16">
+    <div id="project" className="flex flex-col items-center justify-center mt-10 mx-8 md:mx-16 lg:mx-24 px-4 md:px-8 xl:mx-56 py-16">
       <div className="bg-gray-100 p-4 rounded-3xl mb-8 md:mb-16 hover:bg-slate-300 transition">
         <h1 className="text-4xl text-center text-slate-700 mb-2">My Projects</h1>
         <p className="text-center text-slate-500">
