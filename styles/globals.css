@@ -45,3 +45,7 @@ body {
 .Typewriter__cursor {
   color: #89B3F5;
 }
+
+.unhidden {
+  display: contents;
+}

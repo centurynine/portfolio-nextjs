@@ -10,6 +10,7 @@ import BioBgAnimation from './BioAnimation';
 
 function Bio({ darkMode }) {
   return (
+    <div className={darkMode ? "dark"  : ""}> 
     <div id="about" className="flex flex-col xl:flex-row items-center justify-center mt-40">
       <div className="mx-10 md:mx-0 mb-20 md:mb-10 md:ml-56 md:mr-40 flex flex-col items-center justify-center">
         <div className=" flex flex-row gap-2 justify-center text-3xl md:text-6xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
@@ -32,14 +33,14 @@ function Bio({ darkMode }) {
           development. This journey will shape me into a proficient FullStack
           Developer, poised to excel in all aspects of app development.
         </p>
-        <div className="mt-5 flex flex-row text-4xl gap-4 text-slate-800">
+        <div className="mt-5 flex flex-row text-4xl gap-4 text-slate-800 dark:text-white">
           <a href={MyBio.twitter} target="_blank"><AiFillTwitterCircle /></a>
           <a href={MyBio.facebook} target="_blank"><FaFacebook/></a>
           <a href={MyBio.github} target="_blank"><FaGithub/></a>
         </div>
       </div>
-      <div className="xl:mr-56 relative">
-        <div className="w-56 absolute inset-0 ml-8 mt-20 ">
+      <div className="xl:mr-56 relative ">
+        <div className="w-56 absolute inset-0 ml-8 mt-20 hidden xl:block">
           <BioBgAnimation />
         </div>
         <Image
@@ -49,7 +50,8 @@ function Bio({ darkMode }) {
           className="rounded-full object-center mx-auto w-2/3 xl:w-full hover:scale-110 transition"
         />
       </div>
-    </div>
+      </div>
+      </div>
   );
 }
 
