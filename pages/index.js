@@ -5,7 +5,8 @@ import Educations from './components/Educations'
 import Nav from './components/Nav'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
- 
+import { Analytics } from '@vercel/analytics/react';
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Skills darkMode={darkMode} />
       <Educations darkMode={darkMode} />
       <Projects darkMode={darkMode} />
+      <Analytics />
      </section> 
     </main>
     </div>
