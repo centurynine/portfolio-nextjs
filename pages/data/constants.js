@@ -16,7 +16,7 @@ export const MyBio = {
       "Flutter Developer.",
     ],
     description:
-      "I am interested in creating diverse and user-friendly web applications. I aim to excel in both frontend and backend development. This journey will help me become a proficient full-stack developer, poised to excel in all aspects of app development.",
+      "I am interested to creating diverse and user-friendly web applications. I aim to excel in both frontend and backend development. This journey will help me become a proficient full-stack developer, poised to excel in all aspects of app development.",
     github: "https://github.com/centurynine",
     resume:
       "https://drive.google.com/file/d/119bFl8jNC__BTKHBqY5OnyYl9pfsIRY2/view?usp=drive_link",
