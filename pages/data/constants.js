@@ -9,8 +9,9 @@ function constants() {
 export default constants
 
 export const MyBio = {
-    name: "Saran",
+    name: "Guy",
     roles: [
+      "Student.",
       "Programmer.",
       "Full Stack Developer.",
       "Flutter Developer.",
@@ -200,7 +201,29 @@ export const MyBio = {
   
   export const projects = [
     {
-      id: 0,
+      id: 1,
+      title: "Eat With Me (Mobile App)",
+      date: "2022",
+      description:
+      "Developed a recipe sharing application using Flutter and Firebase Database."
+      ,
+      image:
+        "https://i.ibb.co/ZYXB47z/image.png",
+      tags: ["Flutter", "Dart", "Firebase"],
+      category: "mobile app",
+      github: "https://github.com/centurynine",
+      webapp: "https://github.com/centurynine/Flutter-Project",
+      member: [
+        {
+          name: "Saran",
+          img: "https://avatars.githubusercontent.com/u/109062980?v=4",
+          linkedin: "https://www.linkedin.com/in/saran-wanphunga-71b0b228a/",
+          github: "https://github.com/centurynine",
+        },
+      ],
+    },
+    {
+      id: 1,
       title: "FukurouTomo Shop (E-Commerce)",
       date: "2023",
       description:
@@ -221,18 +244,17 @@ export const MyBio = {
       ],
     },
     {
-      id: 1,
-      title: "Eat With Me (Mobile App)",
-      date: "2022",
+      id: 2,
+      title: "WaterLevel (Project)",
+      date: "2023",
       description:
-      "Developed a recipe sharing application using Flutter and Firebase Database."
-      ,
+        "Developed IoT Project using Flutter, Arduino, and Firebase Database.",
       image:
-        "https://i.ibb.co/ZYXB47z/image.png",
-      tags: ["Flutter", "Dart", "Firebase"],
-      category: "mobile app",
+        "https://i.ibb.co/njFT5yQ/2023-09-28-155608.png",
+        tags: ["Flutter", "Dart", "Firebase", "IoT", "Arduino"],
+      category: "project",
       github: "https://github.com/centurynine",
-      webapp: "https://github.com/centurynine/Flutter-Project",
+      webapp: "https://waterlevel-beige.vercel.app/",
       member: [
         {
           name: "Saran",
