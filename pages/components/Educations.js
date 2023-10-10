@@ -1,14 +1,14 @@
 import React from "react";
 import { education } from "../data/constants";
 
-function Educations() {
+function Educations({darkMode}) {
   return (
     <div id="education" className="mt-10 flex flex-col mx-auto px-10 py-16 ">
-      <div className="bg-gray-100 mx-auto p-4 rounded-3xl mb-16 hover:bg-slate-300 transition">
-        <h1 className="text-4xl text-center text-slate-700 mb-2">
+          <div className={`${darkMode ? 'bg-neutral-700 hover:bg-neutral-800' : 'bg-gray-100'}  mx-auto p-4 rounded-3xl mb-16 hover:bg-slate-300 transition`}>
+          <h1 className={`${darkMode ? 'text-gray-200 text-4xl' : 'text-slate-700 text-4xl'}  text-center mb-2`}>
           My Educations
         </h1>
-        <p className="text-center text-slate-500">
+        <p className={`${darkMode ? 'text-white' : 'text-slate-500'}  text-center`}>
           My university and school educations.
         </p>
       </div>
