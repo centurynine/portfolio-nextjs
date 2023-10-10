@@ -15,8 +15,8 @@ function Educations({darkMode}) {
       <div className="flex flex-col justify-center items-center">
       {education.map((edu, index) => (
           <div key={index} className="mb-8 max-w-3xl w-full">
-            <div className="p-4 bg-slate-100 rounded-3xl hover:bg-slate-300 transition">
-              <h2 className="text-xl text-gray-800 font-semibold mb-2">
+            <div className={`${darkMode ? 'bg-neutral-700 ' : 'bg-slate-100'} p-4   rounded-3xl hover:bg-slate-300 transition`}>
+              <h2 className={`${darkMode ? 'text-slate-100' : 'text-gray-800'} text-xl font-semibold mb-2`}>
                 {edu.title}
               </h2>
               <div className="flex items-center gap-4">
@@ -26,10 +26,10 @@ function Educations({darkMode}) {
                   className="w-16 h-16 object-cover rounded-full"
                 />
                 <div>
-                  <span className="block text-md text-xl text-gray-700">
+                  <span className={`${darkMode ? 'text-slate-100' : 'text-gray-700'} block text-md text-xl `}>
                     {edu.school}
                   </span>
-                  <span className="block text-md text-gray-700">{edu.date}</span>
+                  <span className={`${darkMode ? 'text-slate-100' : 'text-gray-700'} block text-md `}>{edu.date}</span>
                 </div>
               </div>
             </div>
