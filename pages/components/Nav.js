@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { MyBio } from '../data/constants';
 
 function Nav({ darkMode, setDarkMode }) {
   return (
@@ -18,7 +19,7 @@ function Nav({ darkMode, setDarkMode }) {
             <li><a href='#project' className={`${darkMode ? 'text-white' : 'text-black'} hover:text-cyan-500 transition`}>Projects</a></li>
             </div>
           <li><a className={`bg-gradient-to-r from-cyan-500 to-blue-400 
-                 text-white px-4 py-2 border-none rounded-2xl ml-4 hover:opacity-80 transition`} href='https://drive.google.com/file/d/119bFl8jNC__BTKHBqY5OnyYl9pfsIRY2/view' target='_blank' rel="noopener noreferrer">Resume</a></li>
+                 text-white px-4 py-2 border-none rounded-2xl ml-4 hover:opacity-80 transition`} href={MyBio.resume} target='_blank' rel="noopener noreferrer">Resume</a></li>
         </div>
       </ul>
     </nav>
