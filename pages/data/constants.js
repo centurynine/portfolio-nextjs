@@ -210,7 +210,7 @@ export const MyBio = {
       image:
         "https://i.ibb.co/ZYXB47z/image.png",
       tags: ["Flutter", "Dart", "Firebase", "Mobile App"],
-      category: "mobile app",
+      category: "mobileapp",
       github: "https://github.com/centurynine",
       webapp: "https://github.com/centurynine/Flutter-Project",
       member: [
@@ -231,7 +231,7 @@ export const MyBio = {
       image:
         "https://i.ibb.co/M2DjGKs/2023-08-26-013116.png",
       tags: ["React Js", "MongoDB", "Node Js", "Express Js", "Redux", "Web App"],
-      category: "web app",
+      category: "webapp",
       github: "https://github.com/centurynine",
       webapp: "https://fukuroutomo.com/",
       member: [
@@ -255,6 +255,27 @@ export const MyBio = {
       category: "project",
       github: "https://github.com/centurynine",
       webapp: "https://waterlevel-beige.vercel.app/",
+      member: [
+        {
+          name: "Saran",
+          img: "https://avatars.githubusercontent.com/u/109062980?v=4",
+          linkedin: "https://www.linkedin.com/in/saran-wanphunga-71b0b228a/",
+          github: "https://github.com/centurynine",
+        },
+      ],
+    },    
+    {
+      id: 3,
+      title: "WeatherApiApp",
+      date: "2022",
+      description:
+        "Developed Weather Application using HTML CSS and JavaScript",
+      image:
+        "https://i.ibb.co/BwP33Zw/Annotation-2023-10-23-001641.png",
+        tags: ["HTML", "CSS", "JavaScript", "Web App"],
+      category: "webapp",
+      github: "https://github.com/centurynine",
+      webapp: "https://weather-api-javascript.vercel.app/",
       member: [
         {
           name: "Saran",
