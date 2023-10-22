@@ -209,7 +209,7 @@ export const MyBio = {
       ,
       image:
         "https://i.ibb.co/ZYXB47z/image.png",
-      tags: ["Flutter", "Dart", "Firebase"],
+      tags: ["Flutter", "Dart", "Firebase", "Mobile App"],
       category: "mobile app",
       github: "https://github.com/centurynine",
       webapp: "https://github.com/centurynine/Flutter-Project",
@@ -230,7 +230,7 @@ export const MyBio = {
         "Developed Online E-Commerce Website using React, Node.js, MongoDB Database, and Deployed on DigitalOcean.",
       image:
         "https://i.ibb.co/M2DjGKs/2023-08-26-013116.png",
-      tags: ["React Js", "MongoDB", "Node Js", "Express Js", "Redux"],
+      tags: ["React Js", "MongoDB", "Node Js", "Express Js", "Redux", "Web App"],
       category: "web app",
       github: "https://github.com/centurynine",
       webapp: "https://fukuroutomo.com/",
@@ -251,7 +251,7 @@ export const MyBio = {
         "Developed IoT Project using Flutter, Arduino, and Firebase Database.",
       image:
         "https://i.ibb.co/njFT5yQ/2023-09-28-155608.png",
-        tags: ["Flutter", "Dart", "Firebase", "IoT", "Arduino"],
+        tags: ["Flutter", "Dart", "Firebase", "IoT", "Arduino", "Mobile App"],
       category: "project",
       github: "https://github.com/centurynine",
       webapp: "https://waterlevel-beige.vercel.app/",
