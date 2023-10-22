@@ -28,10 +28,7 @@ function Bio({ darkMode }) {
           /> 
         </span>
         <p className={`${darkMode ? 'text-white' : 'text-slate-700'} text-1xl md:text-2xl mr-5 text-center `}>
-          I'm interested in Node.js for creating diverse and user-friendly web
-          applications, and I aim to excel in both frontend and backend
-          development. This journey will shape me into a proficient FullStack
-          Developer, poised to excel in all aspects of app development.
+          {MyBio.description}
         </p>
         <div className="mt-5 flex flex-row text-4xl gap-4 text-slate-800 dark:text-white">
           <a href={MyBio.twitter} target="_blank"><AiFillTwitterCircle /></a>
@@ -49,6 +46,7 @@ function Bio({ darkMode }) {
           width={'100%'}
           className="rounded-full object-center mx-auto w-2/3 xl:w-full hover:scale-110 transition"
         />
+ 
       </div>
       </div>
       </div>

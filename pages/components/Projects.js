@@ -5,7 +5,7 @@ function Projects({darkMode}) {
   return (
     <div id="project" className="flex flex-col items-center justify-center mt-10 mx-8 md:mx-16 lg:mx-24 px-4 md:px-8 xl:mx-56 py-16">
       <div className={`${darkMode ? 'bg-neutral-700 ' : 'bg-slate-100 hover:bg-slate-100'} bg-gray-100 p-4 rounded-3xl mb-8 md:mb-16 hover:bg-slate-300 transition`}>
-        <h1 className={`${darkMode ? 'text-slate-100' : 'text-slate-700'} text-4xl text-center text-slate-700 mb-2`}>My Projects</h1>
+        <h1 className={`${darkMode ? 'text-slate-100' : 'text-slate-700'} text-4xl text-center mb-2`}>My Projects</h1>
         <p className={`${darkMode ? 'text-slate-100' : 'text-slate-500'} text-center `}>
           Here are some of the projects I've worked on.
         </p>
@@ -25,7 +25,7 @@ function Projects({darkMode}) {
               </a>
               <div className="p-4">
                 <h2 className={`${darkMode ? 'text-slate-100' : 'text-slate-700'} text-lg md:text-xl lg:text-2xl font-semibold  mb-2`}>{project.title}</h2>
-                <p className={`text-sm md:text-base lg:text-lg text-slate-500`}>{project.description}</p>
+                <p className={`${darkMode ? 'text-slate-200' : 'text-slate-500'} text-sm md:text-base lg:text-lg `}>{project.description}</p>
                 <div className="mt-3">
                   {project.tags.map((tag, index) => (
                     <span
